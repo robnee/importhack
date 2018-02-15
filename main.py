@@ -18,7 +18,7 @@ class ImportHack:
     def find_spec(fullname, path, target):
         import_loc = __file__.rpartition('/')[0]
         module_loc = import_loc + '/' + fullname + '.py'
-        print(__file__, module_loc)
+
         try:
             # test if target exists in same location without use of additional imports
             f = open(module_loc)
@@ -28,7 +28,7 @@ class ImportHack:
             pass
 
 
-ImportHack()
+# ImportHack()
 
 
 import module
