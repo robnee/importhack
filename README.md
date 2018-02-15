@@ -23,9 +23,9 @@ To try this clone this repositoty in Working Copy and run main.py in Pythonista 
 file.  It will fail to import the required module that's part of the same project.  Now, uncomment
 the instantiation of ImportHack
 
-'''
+```
 ImportHack()
-'''
+```
 
 This should now work.
 
