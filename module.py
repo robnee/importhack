@@ -1,0 +1,2 @@
+
+MESSAGE = "hello, world"
