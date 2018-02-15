@@ -9,7 +9,7 @@ the project is a single file.  Trying to split the project into separate modules
 Moving the project files from Working Copy to Pythonista fixes the problem but limits Working Copy's
 usefulness.
 
-The problem is iOS's somewhat lame attempt at security.  iOS allows an app to open files located directly
+The problem is iOS security.  iOS allows an app to open files located directly
 in a file provider but appears to limit searching directories in a file provider.  Attempting an
 os.listdir on a file provider's directory from Pythonista results in a permission exception.
 
@@ -27,6 +27,6 @@ the instantiation of ImportHack
 ImportHack()
 ```
 
-This should now work.
+This may still fail.  If so open module.py in Pythonista as well to gain access.
 
 
